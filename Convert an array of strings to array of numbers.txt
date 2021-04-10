@@ -18,3 +18,7 @@ def to_float_array(arr):
     for x in arr:
         a.append(float(x))
     return a    
+    
+    
+def to_float_array(arr): 
+    return list(map(float, arr))
